@@ -4,3 +4,6 @@
 
 <img src="./ej8y9.png" />
 
+## Ejercicio 10
+
+<img src="./ej10.png" />
