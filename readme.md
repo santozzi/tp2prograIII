@@ -1,9 +1,6 @@
 # Trabajo práctico N°2 - Programación 3
 
-## Ejercicio 8
+## Ejercicio 8 y 9
 
-<img src="./ejercicio8progra3.png" />
+<img src="./ej8y9.png" />
 
-## Ejercicio 9
-
-<img src="./ejercico9.png" />
