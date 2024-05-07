@@ -1,14 +1,18 @@
 package org.example.EJ8;
 
+import org.example.EJ8.EntidadFinanciera.EntidadFinanciera;
+
 import java.util.List;
 
 public class Ticket {
     protected Persona titular;
     protected List<Item> items;
+    protected EntidadFinanciera entidadFinanciera;
 
 
-    public Ticket(Persona titular, List<Item> items) {
-        this.titular = titular;
+    public Ticket(Tarjeta tarjeta, List<Item> items) {
+        this.titular = tarjeta.getTitular();
+        this.entidadFinanciera = tarjeta.entidadFinanciera;
         this.items = items;
 
     }
@@ -16,6 +20,7 @@ public class Ticket {
         String ticket ="";
         double total = 0;
         System.out.println("Nombre: "+ titular.nombre+ " Apellido: "+titular.apellido);
+        System.out.println("Tarjeta: "+entidadFinanciera.getNombre());
         System.out.println("Cuota  Importe");
         for(Item item : items){
             System.out.println(item.cuota+"      "+item.precioUnitario);
