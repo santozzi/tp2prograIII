@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Posnet {
-    protected final double INTERES_X_CUOTA= 0.3;
+
     protected List<Item> items;
 
     public Posnet(){
@@ -25,11 +25,12 @@ public class Posnet {
 
     }
 
-    //descontar de la tarjeta
 
 
 
-    //Verificar saldo en tarjeta
+
+    //Verificar saldo en tarjeta,
+    //TODO: cambiar nombre al método
     private boolean verificarSaldoEntarjeta(Tarjeta tarjeta, int cuotas, double monto){
 
         boolean verificado;

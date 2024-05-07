@@ -1,11 +1,13 @@
 package org.example.EJ8;
 
 import org.example.EJ8.EntidadFinanciera.EntidadFinanciera;
+import org.example.EJ8.persona.Cliente;
+
 
 import java.util.List;
 
 public class Ticket {
-    protected Persona titular;
+    protected Cliente titular;
     protected List<Item> items;
     protected EntidadFinanciera entidadFinanciera;
 
@@ -19,7 +21,7 @@ public class Ticket {
     public String imprimir(){
         String ticket ="";
         double total = 0;
-        System.out.println("Nombre: "+ titular.nombre+ " Apellido: "+titular.apellido);
+        System.out.println("Nombre: "+ titular.getNombre()+ " Apellido: "+titular.getApellido());
         System.out.println("Tarjeta: "+entidadFinanciera.getNombre());
         System.out.println("Cuota  Importe");
         for(Item item : items){

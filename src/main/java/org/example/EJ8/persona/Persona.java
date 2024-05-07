@@ -1,4 +1,4 @@
-package org.example.EJ8;
+package org.example.EJ8.persona;
 
 public class Persona {
     protected String nombre;
@@ -13,5 +13,25 @@ public class Persona {
         this.dni = dni;
         this.telefono = telefono;
         this.email = email;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public String getEmail() {
+        return email;
     }
 }

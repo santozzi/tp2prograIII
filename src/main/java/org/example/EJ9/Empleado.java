@@ -1,6 +1,6 @@
 package org.example.EJ9;
 
-import org.example.EJ8.Persona;
+import org.example.EJ8.persona.Persona;
 
 import java.util.Date;
 
